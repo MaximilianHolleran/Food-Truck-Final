@@ -1,0 +1,97 @@
+.h1 {width:1200px;
+margin: 0 auto;
+text-align: center;
+font-family: garamond;
+font-size: 54px;
+color: tomato;
+padding: 80px;
+}
+
+.h2 {width: 800px;
+margin: 0 auto;
+text-align: center;
+font-family: garamond;
+color: olive;
+font-size: 38px;
+padding: 20px;
+}
+
+.h3 {text-align: center;
+  margin: 0 auto;
+font-family: garamond;
+color: tomato;
+font-size: 32px;
+padding: 24px;
+}
+
+.h4 {font-family: garamond;
+  margin: 0 auto;
+color: rosybrown;
+font-size: 18px;
+padding: 6px;
+top-padding: 12px;
+}
+
+.menuitem {
+  text-align: center;
+  font-family: garamond;}
+
+.headerphoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding-top: 20px;}
+
+.menuphoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding: 60px;}
+
+.p {text-align: center;
+font-family: garamond}
+
+.location {font-family: garamond;
+color: tomato;}
+
+.hours {font-family: garamond;
+color: tomato;}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.gallery-item {
+  display: flex;
+  flex: 1;
+  margin: 5px;
+  height: 350px;
+}
+
+.medialogo {
+  height: 50px;
+  margin: 5px;
+    padding: 10px;
+}
+.socialmediaicon {display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#foodtrucklogo {
+  display: none;
+}
+
+.hidden-on-load {
+  opacity: 0; 
+}
+
+#menu{}
+#hours{}
+#about-us{}
+#location{}
